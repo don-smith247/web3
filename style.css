@@ -269,6 +269,7 @@ footer{
     }
     .divca{
         flex-direction: column;
+        gap: 30px;
     }
     .rput{
         flex-direction: column;
@@ -301,10 +302,11 @@ footer{
     }
     .second-sec{
         width: 100vw;
+        height: 80vh;
     }
     .fouth-sec{
         width: 100vw;
-        height: 120vh;
+        height: 140vh;
         margin-left: none;
     }
     .fif-sec{
