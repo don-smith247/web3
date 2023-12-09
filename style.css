@@ -8,12 +8,21 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-ul{
+.first-ul{
     color: white;
     display: flex;
     gap: 30px;
     list-style: none;
     margin-top: 35px;
+}
+.line{
+    background-color: white;
+    height: 3px;
+    width: 24px;
+    margin: 4px;
+}
+.menu{
+    display: none;
 }
 .first-div{
     display: flex;
@@ -23,7 +32,7 @@ ul{
 .webb p{
     width: 25vw;
 }
-button{
+.hhhh{
     height: 30px;
     width: 70px;
     border: none;
@@ -263,9 +272,41 @@ footer{
         align-items: center;
     
 }
+.all-ull{
+    color: #EB780D;
+    font-size: 15px;
+    display: none;
+
+}
 @media screen and (max-width: 950px) {
-    ul{
+    .all-ull{
+        display: block;
+        background: transparent;
+        color: white;
+        flex-direction: column;
+        background-color: #EB780D;
+        text-align: center;
         display: none;
+    }
+    .first-ul{
+        display: none;
+    }
+    .toggle{
+        display: flex;
+    }
+    .first-div{
+        align-items: center;
+    }
+    .navv-but{
+        border: none;
+        background: transparent;
+        color: white;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        top: 70px;
+        right: 40px;
     }
     .divca{
         flex-direction: column;

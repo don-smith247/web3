@@ -12,15 +12,26 @@
             <div class="first-div">
                 <div><img src="/images/Brand logo.png" alt=""></div>
                 <div>
-                    <ul>
+                    <ul class="first-ul">
                         <li>About</li>
                         <li>Upcoming Events</li>
                         <li>Organisers</li>
-                        <li><button>Login</button></li>
+                        <li><button class="hhhh">Login</button></li>
                     </ul>
                 </div>
+              <div class="menu" onclick="dropdown()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+              </div>
             </div>
           </nav>
+          <ul class="all-ull">
+            <li>About</li>
+            <li>Upcoming Events</li>
+            <li>Organisers</li>
+            <li><button class="navv-but">Login</button></li>
+         </ul>
           <div class="alltxt">
             <div class="txth">
                 <h1>first Ever Web3summit <br> coming Up in Ilorin</h1>
@@ -134,4 +145,11 @@
         </div>
     </footer>
 </body>
+    
 </html>
+<script>
+        function dropdown(){
+        var menu = document.querySelector(".all-ull")
+        menu.classList.toggle("toggle")
+        }
+</script>
